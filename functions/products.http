@@ -1,0 +1,11 @@
+###
+POST http://localhost:5000/test-firestore-db-f9e46/us-central1/app/api/products
+content-type: application/json
+
+{
+    "id": "2",
+    "name": "mouse"
+}
+
+###
+GET http://localhost:5000/test-firestore-db-f9e46/us-central1/app/api/products/1
